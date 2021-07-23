@@ -31,4 +31,12 @@ const ridiculousList = ['whilst playing the flute',
 
 // start of the overall function to generate the random text
 
+const celebState = () => {
 
+    // Funcion to generate a random number using the array length
+
+    const randNum = (array) => {
+        return Math.floor(Math.random() * array.length);
+    }
+
+};

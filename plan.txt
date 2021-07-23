@@ -1,0 +1,59 @@
+My plan for the Mixed messages Project
+
+- Create a random text generator that describes how certain celebrities deciced to do normal everyday activiites in ridiculous ways.
+- Start each generated text with the phrase "Can you believe...."
+
+- Randomly choose a celebrity out of a list:
+	
+	* Tom Cruise
+	* David Beckham
+	* Jennifer Aniston
+	* Halle Berry
+	* Rihanna
+	* Jim Carey
+	* Ryan Gosling
+	* Mila Kunis
+	* Leonardo DiCaprio 
+	* Cristiano Ronaldo
+	* Scarlett Johansson
+	* Dwayne Johnson 
+	 
+- Randomly choose initial start of the statement out of:
+
+	* decided to
+	* thought it would be a good idea to
+	* happened to
+	* seemed to think that they should 
+
+- Randomly choose a everyday activiy out of:
+
+	* hoover their house
+	* walk their dog
+	* clean their car
+	* cook some dinner
+	* take a shower
+	* brush their teeth
+	* take the bins out
+
+- Randomly choose a ridiculous action out of:
+
+	* whilst playing the flute
+	* whilst wearing a nappy on their head
+	* whilst drizzling chocolate sauce over themselves
+	* whilst trying to balance a melon on their head
+	* whilst wearing a morph suit
+	* whilst blowing up baloons
+	* whilst juggling some oranges
+
+
+Create a function that:
+
+
+ - uses Math.floor(Math.Random()) to generate a random number depending on array length.
+ - creates an empty array for each element to store possible answers (pushing them based on random number).
+ - returns concatenation of the strings generated from the arrays and adds "!!??" to the end of the string.
+
+
+
+
+
