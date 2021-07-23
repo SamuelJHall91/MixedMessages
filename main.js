@@ -11,9 +11,9 @@ const startList = ['decided to',
 
 // Array of random everyday activities
 
-const everydayList = ['hoover their house',
-                  'walk their dog',
-                  'clean their car',
+const everydayList = ['hoover the house',
+                  'walk the dog',
+                  'clean the car',
                   'cook some dinner',
                   'take a shower',
                   'brush their teeth',
@@ -39,4 +39,19 @@ const celebState = () => {
         return Math.floor(Math.random() * array.length);
     }
 
+    // Choosing a random index generated from each array
+    let celeb = celebrities[randNum(celebrities)];
+    let start = startList[randNum(startList)];
+    let everyday = everydayList[randNum(everydayList)];
+    let ridic = ridiculousList[randNum(ridiculousList)];
+
+
+
+    // Concanenate string using each array index
+    let fullString = `${celeb} ${start} ${everyday} ${ridic} !!??`
+    console.log('Can you believe...')
+    console.log(fullString);
+
 };
+
+celebState();
